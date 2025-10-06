@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int opcao;
+
+    do {
+        cout << "===== MENU =====" << endl;
+        cout << "1. Opcao 1" << endl;
+        cout << "2. Opcao 2" << endl;
+        cout << "3. Opcao 3" << endl;
+        cout << "0. Sair" << endl;
+        cout << "Escolha uma opcao: ";
+        cin >> opcao;
+
+        switch (opcao) {
+            case 1:
+                cout << "Voce escolheu a Opcao 1." << endl;
+                break;
+            case 2:
+                cout << "Voce escolheu a Opcao 2." << endl;
+                break;
+            case 3:
+                cout << "Voce escolheu a Opcao 3." << endl;
+                break;
+            case 0:
+                cout << "Saindo..." << endl;
+                break;
+            default:
+                cout << "Opcao invalida. Tente novamente." << endl;
+        }
+        cout << endl;
+    } while (opcao != 0);
+
+    return 0;
+}
