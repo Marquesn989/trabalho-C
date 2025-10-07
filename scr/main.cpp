@@ -14,7 +14,7 @@ int main() {
         cout << "Escolha uma opcao: ";
         cin >> opcao;
 
-        switch (opcao) {
+        switch(opcao) {
             case 1:
                 cout << "Voce escolheu a Opcao 1." << endl;
                 break;
@@ -25,13 +25,13 @@ int main() {
                 cout << "Voce escolheu a Opcao 3." << endl;
                 break;
             case 0:
-                cout << "Saindo..." << endl;
+                cout << "Saindo do programa..." << endl;
                 break;
             default:
                 cout << "Opcao invalida. Tente novamente." << endl;
         }
         cout << endl;
-    } while (opcao != 0);
+    } while(opcao != 0);
 
     return 0;
 }
