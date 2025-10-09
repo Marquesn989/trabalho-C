@@ -18,7 +18,7 @@ void jogo_alterna_case() {
     }
     cout << "Frase alternada: " << frase << endl;
 }
-
+//teste
 int main() {
     int opcao;
     do {
