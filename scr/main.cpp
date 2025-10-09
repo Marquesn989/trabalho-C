@@ -8,7 +8,7 @@ int main() {
         cout << "===== MENU =====" << endl;
         cout << "1. Opcao 1" << endl;
         cout << "2. Opcao 2" << endl;
-        cout << "3. Jogo do Quente e Frio" << endl;
+        cout << "3. Opcao 3" << endl;
         cout << "0. Sair" << endl;
         cout << "Escolha uma opcao: ";
         cin >> opcao;
