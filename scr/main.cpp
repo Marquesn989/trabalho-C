@@ -85,7 +85,10 @@ int main() {
                 jogo_inverte_letras();
                 break;
             case 2:
-                cout << "Voce escolheu a Opcao 2." << endl;
+                jogo_alterna_case();
+                break;
+            case 3:
+                cout << "Voce escolheu a Opcao 3." << endl;
                 break;
             case 3:
                 cout << "Voce escolheu a Opcao 3." << endl;
