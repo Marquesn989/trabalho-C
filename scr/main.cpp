@@ -91,8 +91,8 @@ int main() {
     do {
         cout << "===== MENU =====" << endl;
         cout << "1. Inverter frase" << endl;
-        cout << "2. Opcao 2" << endl;
-        cout << "3. Opcao 3" << endl;
+        cout << "2. Frase Invertida" << endl;
+        cout << "3. Jogo Quente e Frio" << endl;
         cout << "0. Sair" << endl;
         cout << "Escolha uma opcao: ";
         if (!(cin >> opcao)) {
