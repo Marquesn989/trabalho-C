@@ -13,7 +13,7 @@ void jogo_inverte_letras() {
 
     cout << "Escreva uma frase: ";
     string frase;
-    getline(cin, frase);
+    getline(cin, frase);    
     if (frase.empty()) {
         cout << "Nada a inverter." << endl;
         return;
