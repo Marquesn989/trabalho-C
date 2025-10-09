@@ -1,3 +1,25 @@
+// Função para alternar maiúsculas/minúsculas em uma frase
+#include <iostream>
+#include <string>
+#include <limits>
+#include <cctype>
+using namespace std;
+
+void jogo_alterna_case() {
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    string frase;
+    cout << "Digite uma frase: ";
+    getline(cin, frase);
+    for (size_t i = 0; i < frase.length(); ++i) {
+        if (isalpha(frase[i])) {
+            if (i % 2 == 0)
+                frase[i] = toupper(frase[i]);
+            else
+                frase[i] = tolower(frase[i]);
+        }
+    }
+    cout << "Frase alternada: " << frase << endl;
+}
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -86,12 +108,6 @@ int main() {
                 break;
             case 2:
                 jogo_alterna_case();
-                break;
-            case 3:
-                cout << "Voce escolheu a Opcao 3." << endl;
-                break;
-            case 3:
-                cout << "Voce escolheu a Opcao 3." << endl;
                 break;
             case 3: {
                 cout << "\nBem-vindo ao jogo do Quente e Frio!" << endl;
